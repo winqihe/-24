@@ -11,7 +11,7 @@ public class Game24 {
         return num;
     }
     public void print4Num(float num[]){
-        System.out.println("随机产生的这四个数字为：");
+        System.out.println("随机产生的这四个数字是：");
         for (int i=0;i<num.length;i++){
             if (num[i]==1.0|num[i]==11.0|num[i]==12.0|num[i]==13.0){
                 switch((int)num[i])
@@ -58,7 +58,7 @@ public class Game24 {
                 }
             }
         }
-        System.out.println("输出1完毕。");
+        System.out.println("输出1完成。");
         return null;
     }
     public float fun(float f,float g,char c) {
